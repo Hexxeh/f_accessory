@@ -33,7 +33,7 @@
 #include <linux/hiddev.h>
 #include <linux/usb.h>
 #include <linux/usb/ch9.h>
-#include <linux/usb/f_accessory.h>
+#include "f_accessory.h"
 #include <linux/configfs.h>
 #include <linux/usb/composite.h>
 
