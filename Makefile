@@ -8,3 +8,4 @@ clean:
 	make -C $(KDIR) M=$(PWD) clean
 install:
 	make -C $(KDIR) M=$(PWD) modules_install
+	depmod -A
